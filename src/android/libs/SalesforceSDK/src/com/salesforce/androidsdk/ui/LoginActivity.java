@@ -451,6 +451,8 @@ public class LoginActivity extends AccountAuthenticatorActivity
         userHint = null;
         spActivityName = null;
         spActivityExtras = null;
+	Intent mainActivityIntent = new Intent(this, SalesforceSDKManager.getInstance().getMainActivityClass());
+        startActivity(mainActivityIntent);
         finish();
 	}
 
