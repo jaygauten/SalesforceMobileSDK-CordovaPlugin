@@ -621,6 +621,9 @@ public class SalesforceDroidGapActivity extends CordovaActivity implements Sales
 
     @Override
     public void onLogoutComplete() {
+        if (!isChild()) {
+            recreate();
+        }
     }
 
     @Override
