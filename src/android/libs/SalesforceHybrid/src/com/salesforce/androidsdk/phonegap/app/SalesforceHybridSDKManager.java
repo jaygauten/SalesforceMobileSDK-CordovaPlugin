@@ -38,6 +38,7 @@ import com.salesforce.androidsdk.smartsync.app.SmartSyncSDKManager;
 import com.salesforce.androidsdk.smartsync.config.SyncsConfig;
 import com.salesforce.androidsdk.smartsync.util.SmartSyncLogger;
 import com.salesforce.androidsdk.ui.LoginActivity;
+import com.salesforce.androidsdk.ui.VlocityLoginActivity;
 import com.salesforce.androidsdk.util.EventsObservable;
 import com.salesforce.androidsdk.util.EventsObservable.EventType;
 
@@ -98,7 +99,7 @@ public class SalesforceHybridSDKManager extends SmartSyncSDKManager {
      */
     public static void initHybrid(Context context) {
         SalesforceHybridSDKManager.init(context, SalesforceDroidGapActivity.class,
-                LoginActivity.class);
+                VlocityLoginActivity.class);
     }
 
     /**
