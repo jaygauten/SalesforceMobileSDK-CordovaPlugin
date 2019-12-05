@@ -31,6 +31,12 @@
             android:theme="@style/SalesforceSDK.ActionBarTheme"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
+        
+        <activity android:name="com.salesforce.androidsdk.ui.VlocityLoginActivity"
+            android:theme="@style/SalesforceSDK.ActionBarTheme"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
 
         <!-- Passcode activity -->
         <activity android:name="com.salesforce.androidsdk.ui.PasscodeActivity"
